@@ -11,7 +11,7 @@
 export function filterEvens(numbers: number[]): number[] {
     // 請在此處寫下你的程式碼
     const result = numbers.filter(n => {
-        if(n%2 == 0) {
+        if( n%2 == 0 ) {
             return n
         }
     })
